@@ -7,6 +7,8 @@ god = God.new
 # Data file specified and read
 file = "data/usdjpy60.csv"
 
+
+
 god.read_data( file )
 god.create_traders(1)
 god.test_traders
